@@ -1,0 +1,62 @@
+/* This file displays the styling for the header and footer.
+Author: Benjamin Namo
+*/
+
+/* style-header-footer.css */
+
+header {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}

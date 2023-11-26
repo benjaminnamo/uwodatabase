@@ -1,0 +1,85 @@
+/* This file displays the Styling for the main menu.
+Author: Benjamin Namo
+*/
+
+h1 {
+    margin-top: 50px; /* Adjust the margin-top value to your preference */
+    padding: 20px;
+    max-width: none;
+    text-align: center;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflow text */
+   
+}
+
+h2 {
+    margin-top: 80px; /* Adjust the margin-top value to your preference */
+}
+
+body {
+    background-color: #F5F5F5; /* Light gray background color */
+    color: #4F2683; /* Purple text color */
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack the columns on top of each other */
+    overflow-y: scroll;
+    margin-top: 50px; /* Adjust the margin-top value to your preference */
+}
+
+
+.left-column,
+.right-column {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width value based on your preference */
+}
+
+h1 {
+    padding: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+button {
+    background-color: #4F2683; /* Purple background color for buttons */
+    color: #FFFFFF; /* White text color */
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3B1B5E; /* Darker purple for button hover effect */
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button button {
+    margin-right: 10px;
+}
+
+.right-column {
+    text-align: left;
+}
+
+.right-column h2 {
+    color: #4F2683; /* Purple text color for the heading */
+}
+
+.right-column p {
+    margin-bottom: 100px;
+}

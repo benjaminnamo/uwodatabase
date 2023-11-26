@@ -1,0 +1,123 @@
+/* This file displays the styling for the add_ta page.
+Author: Benjamin Namo
+*/
+
+body {
+    background-color: #FFFFFF;
+    color: #4f2683;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #4f2683;
+}
+
+form {
+    text-align: left; /* Align the form elements to the left */
+    margin: 20px;
+}
+
+/* Adjust the styles for form labels */
+form label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+}
+
+/* Add the following styles for text inputs */
+form input[type="text"],
+form select {
+    width: 100%; /* Take up the full width of the column */
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+/* Add the following styles to center-align the form options */
+.options-container {
+    width: 45%; /* Adjust the width of the options container */
+    margin-top: 20px; /* Add top margin for spacing */
+}
+
+.options-container label {
+    width: auto; /* Reset the width for labels in the options container */
+}
+
+.options-container button {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.options-container button:hover {
+    background-color: #3b1b5e;
+}
+
+/* Add the following styles for radio buttons and checkboxes */
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin: 5px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-section,
+.right-section {
+    text-align: left; /* Align text to the left within the sections */
+}
+
+.left-section {
+    margin-right: 20px;
+}
+
+.right-section {
+    flex-grow: 1;
+}
+
+/* Add styles for "Courses they love" and "Courses they hate" */
+.right-section label {
+    background-color: #4f2683; /* Purple background color */
+    color: #ffffff; /* White text color */
+    padding: 5px; /* Add padding for better visual appearance */
+    border-radius: 5px; /* Add rounded corners */
+    display: inline-block; /* Make the label a block element */
+    margin-bottom: 5px; /* Add spacing between labels */
+}
+
+/* Add styles for "Add TA" button */
+input[type="submit"] {
+    background-color: #4f2683; /* Purple background color */
+    color: #ffffff; /* White text color */
+    padding: 10px; /* Add padding for better visual appearance */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    margin-top: 10px; /* Add spacing above the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #3b1b5e; /* Darker purple on hover */
+}
+
+.error-message {
+     margin-top: 100px; /* Add more top margin for spacing */
+}

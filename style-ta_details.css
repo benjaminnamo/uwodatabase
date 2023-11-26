@@ -1,0 +1,110 @@
+/* This file displays the styling for the ta details page.
+Author: Benjamin Namo
+*/
+
+body {
+    background-color: #FFFFFF;
+    color: #4f2683;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #4f2683;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Apply styles to all buttons (submit and other buttons) */
+input[type="radio"],
+input[type="submit"],
+button {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add the following styles to center-align the table */
+.table-container {
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Add the following styles to center-align the form */
+.options-container {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Apply hover effect to all buttons (submit and other buttons) */
+input[type="submit"]:hover,
+input[type="radio"]:hover,
+button:hover {
+    background-color: #3b1b5e;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    border: 1px solid #4f2683;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4f2683;
+    color: #FFFFFF;
+}
+
+.table-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.options-container button {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.options-container button:hover {
+    background-color: #3b1b5e;
+}
+
+.ordering-form {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+/* Add margin to the form elements for spacing */
+.ordering-form label,
+.ordering-form select,
+.ordering-form input[type="submit"] {
+    margin-right: 10px;
+}

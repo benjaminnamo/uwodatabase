@@ -1,0 +1,83 @@
+/* This file displays the styling for the all courses data.
+Author: Benjamin Namo
+*/
+
+/* styling.css */
+
+
+body {
+    background-color: #FFFFFF;
+    color: #4f2683;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #4f2683;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Apply styles to all buttons (submit and other buttons) */
+input[type="submit"] {
+    background-color: #4f2683;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Apply hover effect to all buttons (submit and other buttons) */
+input[type="submit"]:hover {
+    background-color: #3b1b5e;
+}
+
+select {
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #4f2683;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4f2683;
+    color: #FFFFFF;
+}
+
+a {
+    color: #4f2683;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+. container{
+ display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    margin: 10px 0;
+}
